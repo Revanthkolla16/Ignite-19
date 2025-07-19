@@ -1,20 +1,9 @@
-import fs, { readFileSync } from "fs"
-import path from "path"
+import { NextResponse } from 'next/server';
+import { readFileSync } from 'fs';
+import { join } from 'path';
 
-const filepath=path.join(process.cwd(),'data/faculty.json');
-
-export async function GET()
-{
-    try {
-        const data=JSON.parse(fs.readFileSync(filepath,'utf-8'));
-        return new Response(JSON.stringify(data),{
-            status: 200,
-            headers: { 'content-type' : 'application/json' }
-        })
-    } catch (error) {
-        return new Response(JSON.stringify({error:'Could not read file'}),{
-            status: 500
-        })
-    }
-
+export async function GET() {
+  const filePath = join(process.cwd(), 'data', 'faculty.json');
+  const data = readFileSync(filePath, 'utf-8');
+  return NextResponse.json(JSON.parse(data));
 }
