@@ -1,0 +1,1020 @@
+[
+    {
+        "id": 1,
+        "name": "Introduction to Programming",
+        "code": "CS100",
+        "description": "This course covers introduction to programming fundamentals and applications.",
+        "credits": 4,
+        "department": "Computer Science",
+        "prerequisites": [],
+        "faculty_id": 100
+    },
+    {
+        "id": 2,
+        "name": "Introduction to Data Structures",
+        "code": "CS101",
+        "description": "This course covers introduction to data structures fundamentals and applications.",
+        "credits": 2,
+        "department": "Computer Science",
+        "prerequisites": [],
+        "faculty_id": 101
+    },
+    {
+        "id": 3,
+        "name": "Introduction to Algorithms",
+        "code": "CS102",
+        "description": "This course covers introduction to algorithms fundamentals and applications.",
+        "credits": 4,
+        "department": "Computer Science",
+        "prerequisites": [
+            1
+        ],
+        "faculty_id": 102
+    },
+    {
+        "id": 4,
+        "name": "Introduction to Operating Systems",
+        "code": "CS103",
+        "description": "This course covers introduction to operating systems fundamentals and applications.",
+        "credits": 2,
+        "department": "Computer Science",
+        "prerequisites": [
+            1,
+            3
+        ],
+        "faculty_id": 103
+    },
+    {
+        "id": 5,
+        "name": "Introduction to Databases",
+        "code": "CS104",
+        "description": "This course covers introduction to databases fundamentals and applications.",
+        "credits": 4,
+        "department": "Computer Science",
+        "prerequisites": [
+            2,
+            1,
+            4
+        ],
+        "faculty_id": 104
+    },
+    {
+        "id": 6,
+        "name": "Introduction to Networks",
+        "code": "CS200",
+        "description": "This course covers introduction to networks fundamentals and applications.",
+        "credits": 2,
+        "department": "Computer Science",
+        "prerequisites": [
+            1,
+            3,
+            2
+        ],
+        "faculty_id": 105
+    },
+    {
+        "id": 7,
+        "name": "Introduction to AI",
+        "code": "CS201",
+        "description": "This course covers introduction to ai fundamentals and applications.",
+        "credits": 4,
+        "department": "Computer Science",
+        "prerequisites": [
+            4,
+            3
+        ],
+        "faculty_id": 106
+    },
+    {
+        "id": 8,
+        "name": "Introduction to ML",
+        "code": "CS202",
+        "description": "This course covers introduction to ml fundamentals and applications.",
+        "credits": 3,
+        "department": "Computer Science",
+        "prerequisites": [
+            6,
+            4,
+            7
+        ],
+        "faculty_id": 107
+    },
+    {
+        "id": 9,
+        "name": "Introduction to Cybersecurity",
+        "code": "CS203",
+        "description": "This course covers introduction to cybersecurity fundamentals and applications.",
+        "credits": 2,
+        "department": "Computer Science",
+        "prerequisites": [
+            6
+        ],
+        "faculty_id": 108
+    },
+    {
+        "id": 10,
+        "name": "Introduction to Cloud Computing",
+        "code": "CS204",
+        "description": "This course covers introduction to cloud computing fundamentals and applications.",
+        "credits": 3,
+        "department": "Computer Science",
+        "prerequisites": [
+            4,
+            8,
+            3
+        ],
+        "faculty_id": 109
+    },
+    {
+        "id": 11,
+        "name": "Advanced Programming",
+        "code": "CS300",
+        "description": "This course covers advanced programming fundamentals and applications.",
+        "credits": 2,
+        "department": "Computer Science",
+        "prerequisites": [
+            9,
+            3,
+            2
+        ],
+        "faculty_id": 124
+    },
+    {
+        "id": 12,
+        "name": "Advanced Data Structures",
+        "code": "CS301",
+        "description": "This course covers advanced data structures fundamentals and applications.",
+        "credits": 4,
+        "department": "Computer Science",
+        "prerequisites": [
+            5
+        ],
+        "faculty_id": 101
+    },
+    {
+        "id": 13,
+        "name": "Advanced Algorithms",
+        "code": "CS302",
+        "description": "This course covers advanced algorithms fundamentals and applications.",
+        "credits": 2,
+        "department": "Computer Science",
+        "prerequisites": [
+            3
+        ],
+        "faculty_id": 102
+    },
+    {
+        "id": 14,
+        "name": "Advanced Operating Systems",
+        "code": "CS303",
+        "description": "This course covers advanced operating systems fundamentals and applications.",
+        "credits": 2,
+        "department": "Computer Science",
+        "prerequisites": [
+            1,
+            8,
+            4
+        ],
+        "faculty_id": 103
+    },
+    {
+        "id": 15,
+        "name": "Advanced Databases",
+        "code": "CS304",
+        "description": "This course covers advanced databases fundamentals and applications.",
+        "credits": 4,
+        "department": "Computer Science",
+        "prerequisites": [
+            3,
+            4
+        ],
+        "faculty_id": 104
+    },
+    {
+        "id": 16,
+        "name": "Advanced Networks",
+        "code": "CS400",
+        "description": "This course covers advanced networks fundamentals and applications.",
+        "credits": 3,
+        "department": "Computer Science",
+        "prerequisites": [
+            10,
+            3,
+            5
+        ],
+        "faculty_id": 105
+    },
+    {
+        "id": 17,
+        "name": "Advanced AI",
+        "code": "CS401",
+        "description": "This course covers advanced ai fundamentals and applications.",
+        "credits": 3,
+        "department": "Computer Science",
+        "prerequisites": [
+            14,
+            8,
+            2
+        ],
+        "faculty_id": 106
+    },
+    {
+        "id": 18,
+        "name": "Advanced ML",
+        "code": "CS402",
+        "description": "This course covers advanced ml fundamentals and applications.",
+        "credits": 4,
+        "department": "Computer Science",
+        "prerequisites": [
+            11
+        ],
+        "faculty_id": 107
+    },
+    {
+        "id": 19,
+        "name": "Advanced Cybersecurity",
+        "code": "CS403",
+        "description": "This course covers advanced cybersecurity fundamentals and applications.",
+        "credits": 3,
+        "department": "Computer Science",
+        "prerequisites": [
+            2,
+            1,
+            6
+        ],
+        "faculty_id": 108
+    },
+    {
+        "id": 20,
+        "name": "Advanced Cloud Computing",
+        "code": "CS404",
+        "description": "This course covers advanced cloud computing fundamentals and applications.",
+        "credits": 2,
+        "department": "Computer Science",
+        "prerequisites": [
+            11,
+            17
+        ],
+        "faculty_id": 109
+    },
+    {
+        "id": 21,
+        "name": "Introduction to Circuits",
+        "code": "ECE100",
+        "description": "This course covers introduction to circuits fundamentals and applications.",
+        "credits": 2,
+        "department": "Electronics and Communication",
+        "prerequisites": [],
+        "faculty_id": 105
+    },
+    {
+        "id": 22,
+        "name": "Introduction to Signals",
+        "code": "ECE101",
+        "description": "This course covers introduction to signals fundamentals and applications.",
+        "credits": 3,
+        "department": "Electronics and Communication",
+        "prerequisites": [],
+        "faculty_id": 107
+    },
+    {
+        "id": 23,
+        "name": "Introduction to Digital Systems",
+        "code": "ECE102",
+        "description": "This course covers introduction to digital systems fundamentals and applications.",
+        "credits": 3,
+        "department": "Electronics and Communication",
+        "prerequisites": [
+            21
+        ],
+        "faculty_id": 106
+    },
+    {
+        "id": 24,
+        "name": "Introduction to VLSI",
+        "code": "ECE103",
+        "description": "This course covers introduction to vlsi fundamentals and applications.",
+        "credits": 2,
+        "department": "Electronics and Communication",
+        "prerequisites": [
+            23,
+            21
+        ],
+        "faculty_id": 125
+    },
+    {
+        "id": 25,
+        "name": "Introduction to Embedded Systems",
+        "code": "ECE104",
+        "description": "This course covers introduction to embedded systems fundamentals and applications.",
+        "credits": 3,
+        "department": "Electronics and Communication",
+        "prerequisites": [
+            23
+        ],
+        "faculty_id": 108
+    },
+    {
+        "id": 26,
+        "name": "Introduction to Microwave",
+        "code": "ECE200",
+        "description": "This course covers introduction to microwave fundamentals and applications.",
+        "credits": 4,
+        "department": "Electronics and Communication",
+        "prerequisites": [
+            23,
+            22
+        ],
+        "faculty_id": 105
+    },
+    {
+        "id": 27,
+        "name": "Introduction to Optoelectronics",
+        "code": "ECE201",
+        "description": "This course covers introduction to optoelectronics fundamentals and applications.",
+        "credits": 2,
+        "department": "Electronics and Communication",
+        "prerequisites": [
+            26
+        ],
+        "faculty_id": 106
+    },
+    {
+        "id": 28,
+        "name": "Introduction to Control Systems",
+        "code": "ECE202",
+        "description": "This course covers introduction to control systems fundamentals and applications.",
+        "credits": 2,
+        "department": "Electronics and Communication",
+        "prerequisites": [
+            22,
+            27,
+            24
+        ],
+        "faculty_id": 107
+    },
+    {
+        "id": 29,
+        "name": "Introduction to DSP",
+        "code": "ECE203",
+        "description": "This course covers introduction to dsp fundamentals and applications.",
+        "credits": 4,
+        "department": "Electronics and Communication",
+        "prerequisites": [
+            28,
+            21,
+            26
+        ],
+        "faculty_id": 108
+    },
+    {
+        "id": 30,
+        "name": "Introduction to Wireless",
+        "code": "ECE204",
+        "description": "This course covers introduction to wireless fundamentals and applications.",
+        "credits": 4,
+        "department": "Electronics and Communication",
+        "prerequisites": [
+            27,
+            29,
+            21
+        ],
+        "faculty_id": 109
+    },
+    {
+        "id": 31,
+        "name": "Advanced Circuits",
+        "code": "ECE300",
+        "description": "This course covers advanced circuits fundamentals and applications.",
+        "credits": 2,
+        "department": "Electronics and Communication",
+        "prerequisites": [
+            24,
+            22,
+            25
+        ],
+        "faculty_id": 105
+    },
+    {
+        "id": 32,
+        "name": "Advanced Signals",
+        "code": "ECE301",
+        "description": "This course covers advanced signals fundamentals and applications.",
+        "credits": 3,
+        "department": "Electronics and Communication",
+        "prerequisites": [
+            24
+        ],
+        "faculty_id": 107
+    },
+    {
+        "id": 33,
+        "name": "Advanced Digital Systems",
+        "code": "ECE302",
+        "description": "This course covers advanced digital systems fundamentals and applications.",
+        "credits": 3,
+        "department": "Electronics and Communication",
+        "prerequisites": [
+            32,
+            22,
+            28
+        ],
+        "faculty_id": 106
+    },
+    {
+        "id": 34,
+        "name": "Advanced VLSI",
+        "code": "ECE303",
+        "description": "This course covers advanced vlsi fundamentals and applications.",
+        "credits": 3,
+        "department": "Electronics and Communication",
+        "prerequisites": [
+            23,
+            33
+        ],
+        "faculty_id": 125
+    },
+    {
+        "id": 35,
+        "name": "Advanced Embedded Systems",
+        "code": "ECE304",
+        "description": "This course covers advanced embedded systems fundamentals and applications.",
+        "credits": 3,
+        "department": "Electronics and Communication",
+        "prerequisites": [
+            21
+        ],
+        "faculty_id": 108
+    },
+    {
+        "id": 36,
+        "name": "Advanced Microwave",
+        "code": "ECE400",
+        "description": "This course covers advanced microwave fundamentals and applications.",
+        "credits": 3,
+        "department": "Electronics and Communication",
+        "prerequisites": [
+            35,
+            22
+        ],
+        "faculty_id": 105
+    },
+    {
+        "id": 37,
+        "name": "Advanced Optoelectronics",
+        "code": "ECE401",
+        "description": "This course covers advanced optoelectronics fundamentals and applications.",
+        "credits": 4,
+        "department": "Electronics and Communication",
+        "prerequisites": [
+            34,
+            30
+        ],
+        "faculty_id": 106
+    },
+    {
+        "id": 38,
+        "name": "Advanced Control Systems",
+        "code": "ECE402",
+        "description": "This course covers advanced control systems fundamentals and applications.",
+        "credits": 4,
+        "department": "Electronics and Communication",
+        "prerequisites": [
+            22,
+            31
+        ],
+        "faculty_id": 107
+    },
+    {
+        "id": 39,
+        "name": "Advanced DSP",
+        "code": "ECE403",
+        "description": "This course covers advanced dsp fundamentals and applications.",
+        "credits": 2,
+        "department": "Electronics and Communication",
+        "prerequisites": [
+            32,
+            30
+        ],
+        "faculty_id": 108
+    },
+    {
+        "id": 40,
+        "name": "Advanced Wireless",
+        "code": "ECE404",
+        "description": "This course covers advanced wireless fundamentals and applications.",
+        "credits": 2,
+        "department": "Electronics and Communication",
+        "prerequisites": [
+            23,
+            34
+        ],
+        "faculty_id": 109
+    },
+    {
+        "id": 41,
+        "name": "Introduction to Thermodynamics",
+        "code": "ME100",
+        "description": "This course covers introduction to thermodynamics fundamentals and applications.",
+        "credits": 3,
+        "department": "Mechanical Engineering",
+        "prerequisites": [],
+        "faculty_id": 110
+    },
+    {
+        "id": 42,
+        "name": "Introduction to Fluid Mechanics",
+        "code": "ME101",
+        "description": "This course covers introduction to fluid mechanics fundamentals and applications.",
+        "credits": 4,
+        "department": "Mechanical Engineering",
+        "prerequisites": [],
+        "faculty_id": 111
+    },
+    {
+        "id": 43,
+        "name": "Introduction to Heat Transfer",
+        "code": "ME102",
+        "description": "This course covers introduction to heat transfer fundamentals and applications.",
+        "credits": 4,
+        "department": "Mechanical Engineering",
+        "prerequisites": [
+            41
+        ],
+        "faculty_id": 110
+    },
+    {
+        "id": 44,
+        "name": "Introduction to Dynamics",
+        "code": "ME103",
+        "description": "This course covers introduction to dynamics fundamentals and applications.",
+        "credits": 3,
+        "department": "Mechanical Engineering",
+        "prerequisites": [
+            42,
+            43,
+            41
+        ],
+        "faculty_id": 112
+    },
+    {
+        "id": 45,
+        "name": "Introduction to Mechanics",
+        "code": "ME104",
+        "description": "This course covers introduction to mechanics fundamentals and applications.",
+        "credits": 3,
+        "department": "Mechanical Engineering",
+        "prerequisites": [
+            42,
+            41
+        ],
+        "faculty_id": 113
+    },
+    {
+        "id": 46,
+        "name": "Introduction to Manufacturing",
+        "code": "ME200",
+        "description": "This course covers introduction to manufacturing fundamentals and applications.",
+        "credits": 3,
+        "department": "Mechanical Engineering",
+        "prerequisites": [
+            43
+        ],
+        "faculty_id": 110
+    },
+    {
+        "id": 47,
+        "name": "Introduction to Robotics",
+        "code": "ME201",
+        "description": "This course covers introduction to robotics fundamentals and applications.",
+        "credits": 4,
+        "department": "Mechanical Engineering",
+        "prerequisites": [
+            41,
+            42
+        ],
+        "faculty_id": 114
+    },
+    {
+        "id": 48,
+        "name": "Introduction to CAD",
+        "code": "ME202",
+        "description": "This course covers introduction to cad fundamentals and applications.",
+        "credits": 3,
+        "department": "Mechanical Engineering",
+        "prerequisites": [
+            47,
+            44
+        ],
+        "faculty_id": 115
+    },
+    {
+        "id": 49,
+        "name": "Introduction to Materials",
+        "code": "ME203",
+        "description": "This course covers introduction to materials fundamentals and applications.",
+        "credits": 2,
+        "department": "Mechanical Engineering",
+        "prerequisites": [
+            43,
+            46
+        ],
+        "faculty_id": 116
+    },
+    {
+        "id": 50,
+        "name": "Introduction to Control",
+        "code": "ME204",
+        "description": "This course covers introduction to control fundamentals and applications.",
+        "credits": 4,
+        "department": "Mechanical Engineering",
+        "prerequisites": [
+            45,
+            47
+        ],
+        "faculty_id": 114
+    },
+    {
+        "id": 51,
+        "name": "Advanced Thermodynamics",
+        "code": "ME300",
+        "description": "This course covers advanced thermodynamics fundamentals and applications.",
+        "credits": 3,
+        "department": "Mechanical Engineering",
+        "prerequisites": [
+            47,
+            43,
+            48
+        ],
+        "faculty_id": 110
+    },
+    {
+        "id": 52,
+        "name": "Advanced Fluid Mechanics",
+        "code": "ME301",
+        "description": "This course covers advanced fluid mechanics fundamentals and applications.",
+        "credits": 4,
+        "department": "Mechanical Engineering",
+        "prerequisites": [
+            44,
+            43
+        ],
+        "faculty_id": 111
+    },
+    {
+        "id": 53,
+        "name": "Advanced Heat Transfer",
+        "code": "ME302",
+        "description": "This course covers advanced heat transfer fundamentals and applications.",
+        "credits": 4,
+        "department": "Mechanical Engineering",
+        "prerequisites": [
+            43
+        ],
+        "faculty_id": 110
+    },
+    {
+        "id": 54,
+        "name": "Advanced Dynamics",
+        "code": "ME303",
+        "description": "This course covers advanced dynamics fundamentals and applications.",
+        "credits": 2,
+        "department": "Mechanical Engineering",
+        "prerequisites": [
+            51,
+            42,
+            50
+        ],
+        "faculty_id": 112
+    },
+    {
+        "id": 55,
+        "name": "Advanced Mechanics",
+        "code": "ME304",
+        "description": "This course covers advanced mechanics fundamentals and applications.",
+        "credits": 4,
+        "department": "Mechanical Engineering",
+        "prerequisites": [
+            43,
+            47
+        ],
+        "faculty_id": 113
+    },
+    {
+        "id": 56,
+        "name": "Advanced Manufacturing",
+        "code": "ME400",
+        "description": "This course covers advanced manufacturing fundamentals and applications.",
+        "credits": 3,
+        "department": "Mechanical Engineering",
+        "prerequisites": [
+            50
+        ],
+        "faculty_id": 110
+    },
+    {
+        "id": 57,
+        "name": "Advanced Robotics",
+        "code": "ME401",
+        "description": "This course covers advanced robotics fundamentals and applications.",
+        "credits": 3,
+        "department": "Mechanical Engineering",
+        "prerequisites": [
+            41,
+            45
+        ],
+        "faculty_id": 114
+    },
+    {
+        "id": 58,
+        "name": "Advanced CAD",
+        "code": "ME402",
+        "description": "This course covers advanced cad fundamentals and applications.",
+        "credits": 4,
+        "department": "Mechanical Engineering",
+        "prerequisites": [
+            43
+        ],
+        "faculty_id": 115
+    },
+    {
+        "id": 59,
+        "name": "Advanced Materials",
+        "code": "ME403",
+        "description": "This course covers advanced materials fundamentals and applications.",
+        "credits": 3,
+        "department": "Mechanical Engineering",
+        "prerequisites": [
+            57
+        ],
+        "faculty_id": 116
+    },
+    {
+        "id": 60,
+        "name": "Advanced Control",
+        "code": "ME404",
+        "description": "This course covers advanced control fundamentals and applications.",
+        "credits": 3,
+        "department": "Mechanical Engineering",
+        "prerequisites": [
+            45,
+            59,
+            50
+        ],
+        "faculty_id": 114
+    },
+    {
+        "id": 61,
+        "name": "Introduction to IoT",
+        "code": "SM100",
+        "description": "This course covers introduction to iot fundamentals and applications.",
+        "credits": 2,
+        "department": "Smart Manufacturing",
+        "prerequisites": [],
+        "faculty_id": 117
+    },
+    {
+        "id": 62,
+        "name": "Introduction to Automation",
+        "code": "SM101",
+        "description": "This course covers introduction to automation fundamentals and applications.",
+        "credits": 4,
+        "department": "Smart Manufacturing",
+        "prerequisites": [],
+        "faculty_id": 118
+    },
+    {
+        "id": 63,
+        "name": "Introduction to CNC",
+        "code": "SM102",
+        "description": "This course covers introduction to cnc fundamentals and applications.",
+        "credits": 4,
+        "department": "Smart Manufacturing",
+        "prerequisites": [
+            61,
+            62
+        ],
+        "faculty_id": 119
+    },
+    {
+        "id": 64,
+        "name": "Introduction to Sensors",
+        "code": "SM103",
+        "description": "This course covers introduction to sensors fundamentals and applications.",
+        "credits": 2,
+        "department": "Smart Manufacturing",
+        "prerequisites": [
+            62
+        ],
+        "faculty_id": 117
+    },
+    {
+        "id": 65,
+        "name": "Introduction to Industrial AI",
+        "code": "SM104",
+        "description": "This course covers introduction to industrial ai fundamentals and applications.",
+        "credits": 3,
+        "department": "Smart Manufacturing",
+        "prerequisites": [
+            63,
+            62
+        ],
+        "faculty_id": 120
+    },
+    {
+        "id": 66,
+        "name": "Introduction to Cyber Physical",
+        "code": "SM200",
+        "description": "This course covers introduction to cyber physical fundamentals and applications.",
+        "credits": 2,
+        "department": "Smart Manufacturing",
+        "prerequisites": [
+            61,
+            64
+        ],
+        "faculty_id": 118
+    },
+    {
+        "id": 67,
+        "name": "Introduction to Smart Robotics",
+        "code": "SM201",
+        "description": "This course covers introduction to smart robotics fundamentals and applications.",
+        "credits": 2,
+        "department": "Smart Manufacturing",
+        "prerequisites": [
+            66,
+            63,
+            62
+        ],
+        "faculty_id": 118
+    },
+    {
+        "id": 68,
+        "name": "Introduction to Data Analytics",
+        "code": "SM202",
+        "description": "This course covers introduction to data analytics fundamentals and applications.",
+        "credits": 2,
+        "department": "Smart Manufacturing",
+        "prerequisites": [
+            65,
+            63
+        ],
+        "faculty_id": 121
+    },
+    {
+        "id": 69,
+        "name": "Introduction to 3D Printing",
+        "code": "SM203",
+        "description": "This course covers introduction to 3d printing fundamentals and applications.",
+        "credits": 3,
+        "department": "Smart Manufacturing",
+        "prerequisites": [
+            64,
+            62
+        ],
+        "faculty_id": 122
+    },
+    {
+        "id": 70,
+        "name": "Introduction to Digital Twins",
+        "code": "SM204",
+        "description": "This course covers introduction to digital twins fundamentals and applications.",
+        "credits": 2,
+        "department": "Smart Manufacturing",
+        "prerequisites": [
+            63,
+            62,
+            67
+        ],
+        "faculty_id": 123
+    },
+    {
+        "id": 71,
+        "name": "Advanced IoT",
+        "code": "SM300",
+        "description": "This course covers advanced iot fundamentals and applications.",
+        "credits": 2,
+        "department": "Smart Manufacturing",
+        "prerequisites": [
+            63
+        ],
+        "faculty_id": 117
+    },
+    {
+        "id": 72,
+        "name": "Advanced Automation",
+        "code": "SM301",
+        "description": "This course covers advanced automation fundamentals and applications.",
+        "credits": 4,
+        "department": "Smart Manufacturing",
+        "prerequisites": [
+            69,
+            64
+        ],
+        "faculty_id": 118
+    },
+    {
+        "id": 73,
+        "name": "Advanced CNC",
+        "code": "SM302",
+        "description": "This course covers advanced cnc fundamentals and applications.",
+        "credits": 4,
+        "department": "Smart Manufacturing",
+        "prerequisites": [
+            67,
+            66,
+            70
+        ],
+        "faculty_id": 119
+    },
+    {
+        "id": 74,
+        "name": "Advanced Sensors",
+        "code": "SM303",
+        "description": "This course covers advanced sensors fundamentals and applications.",
+        "credits": 2,
+        "department": "Smart Manufacturing",
+        "prerequisites": [
+            64
+        ],
+        "faculty_id": 117
+    },
+    {
+        "id": 75,
+        "name": "Advanced Industrial AI",
+        "code": "SM304",
+        "description": "This course covers advanced industrial ai fundamentals and applications.",
+        "credits": 4,
+        "department": "Smart Manufacturing",
+        "prerequisites": [
+            68
+        ],
+        "faculty_id": 120
+    },
+    {
+        "id": 76,
+        "name": "Advanced Cyber Physical",
+        "code": "SM400",
+        "description": "This course covers advanced cyber physical fundamentals and applications.",
+        "credits": 4,
+        "department": "Smart Manufacturing",
+        "prerequisites": [
+            67,
+            65
+        ],
+        "faculty_id": 118
+    },
+    {
+        "id": 77,
+        "name": "Advanced Smart Robotics",
+        "code": "SM401",
+        "description": "This course covers advanced smart robotics fundamentals and applications.",
+        "credits": 2,
+        "department": "Smart Manufacturing",
+        "prerequisites": [
+            76,
+            71
+        ],
+        "faculty_id": 118
+    },
+    {
+        "id": 78,
+        "name": "Advanced Data Analytics",
+        "code": "SM402",
+        "description": "This course covers advanced data analytics fundamentals and applications.",
+        "credits": 3,
+        "department": "Smart Manufacturing",
+        "prerequisites": [
+            61,
+            71,
+            69
+        ],
+        "faculty_id": 121
+    },
+    {
+        "id": 79,
+        "name": "Advanced 3D Printing",
+        "code": "SM403",
+        "description": "This course covers advanced 3d printing fundamentals and applications.",
+        "credits": 4,
+        "department": "Smart Manufacturing",
+        "prerequisites": [
+            74,
+            69,
+            71
+        ],
+        "faculty_id": 122
+    },
+    {
+        "id": 80,
+        "name": "Advanced Digital Twins",
+        "code": "SM404",
+        "description": "This course covers advanced digital twins fundamentals and applications.",
+        "credits": 3,
+        "department": "Smart Manufacturing",
+        "prerequisites": [
+            64
+        ],
+        "faculty_id": 123
+    }
+]

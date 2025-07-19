@@ -1,0 +1,366 @@
+[
+    {
+        "id": 100,
+        "first_name": "Rajesh",
+        "last_name": "Sharma",
+        "email": "rajesh.sharma@university.edu",
+        "department": "Computer Science",
+        "specialization": [
+            "Programming",
+            "Software Engineering",
+            "Computer Networks",
+            "Cybersecurity"
+        ],
+        "office_location": "CS Building, Room 101",
+        "office_hours": "Mon/Wed 10-12"
+    },
+    {
+        "id": 101,
+        "first_name": "Priya",
+        "last_name": "Patel",
+        "email": "priya.patel@university.edu",
+        "department": "Computer Science",
+        "specialization": [
+            "Data Structures",
+            "Algorithms",
+            "Database Systems"
+        ],
+        "office_location": "CS Building, Room 102",
+        "office_hours": "Tue/Thu 2-4"
+    },
+    {
+        "id": 102,
+        "first_name": "Arjun",
+        "last_name": "Kumar",
+        "email": "arjun.kumar@university.edu",
+        "department": "Computer Science",
+        "specialization": [
+            "Algorithms",
+            "Operating Systems",
+            "Artificial Intelligence",
+            "Machine Learning"
+        ],
+        "office_location": "CS Building, Room 103",
+        "office_hours": "Mon/Fri 1-3"
+    },
+    {
+        "id": 103,
+        "first_name": "Kavita",
+        "last_name": "Singh",
+        "email": "kavita.singh@university.edu",
+        "department": "Computer Science",
+        "specialization": [
+            "Operating Systems",
+            "Cloud Computing"
+        ],
+        "office_location": "CS Building, Room 104",
+        "office_hours": "Wed/Fri 9-11"
+    },
+    {
+        "id": 104,
+        "first_name": "Vikram",
+        "last_name": "Gupta",
+        "email": "vikram.gupta@university.edu",
+        "department": "Computer Science",
+        "specialization": [
+            "Database Systems",
+            "Embedded Systems",
+            "Software Architecture",
+            "System Design"
+        ],
+        "office_location": "CS Building, Room 105",
+        "office_hours": "Tue/Thu 10-12"
+    },
+    {
+        "id": 105,
+        "first_name": "Sneha",
+        "last_name": "Reddy",
+        "email": "sneha.reddy@university.edu",
+        "department": "Electronics and Communication",
+        "specialization": [
+            "Computer Networks",
+            "Microwave Engineering",
+            "Wireless Communication"
+        ],
+        "office_location": "ECE Building, Room 201",
+        "office_hours": "Mon/Wed 3-5"
+    },
+    {
+        "id": 106,
+        "first_name": "Anil",
+        "last_name": "Verma",
+        "email": "anil.verma@university.edu",
+        "department": "Electronics and Communication",
+        "specialization": [
+            "Artificial Intelligence",
+            "Optoelectronics",
+            "Digital Signal Processing"
+        ],
+        "office_location": "ECE Building, Room 202",
+        "office_hours": "Tue/Fri 11-1"
+    },
+    {
+        "id": 107,
+        "first_name": "Meera",
+        "last_name": "Nair",
+        "email": "meera.nair@university.edu",
+        "department": "Electronics and Communication",
+        "specialization": [
+            "Machine Learning",
+            "Control Systems",
+            "Digital Signal Processing",
+            "VLSI Design"
+        ],
+        "office_location": "ECE Building, Room 203",
+        "office_hours": "Wed/Thu 1-3"
+    },
+    {
+        "id": 108,
+        "first_name": "Suresh",
+        "last_name": "Joshi",
+        "email": "suresh.joshi@university.edu",
+        "department": "Electronics and Communication",
+        "specialization": [
+            "Cybersecurity",
+            "Digital Signal Processing"
+        ],
+        "office_location": "ECE Building, Room 204",
+        "office_hours": "Mon/Thu 2-4"
+    },
+    {
+        "id": 109,
+        "first_name": "Deepika",
+        "last_name": "Rao",
+        "email": "deepika.rao@university.edu",
+        "department": "Electronics and Communication",
+        "specialization": [
+            "Cloud Computing",
+            "Wireless Communication",
+            "Control Systems"
+        ],
+        "office_location": "ECE Building, Room 205",
+        "office_hours": "Tue/Wed 9-11"
+    },
+    {
+        "id": 110,
+        "first_name": "Amit",
+        "last_name": "Bhatt",
+        "email": "amit.bhatt@university.edu",
+        "department": "Mechanical Engineering",
+        "specialization": [
+            "Thermodynamics",
+            "Heat Transfer",
+            "Manufacturing Processes"
+        ],
+        "office_location": "ME Building, Room 301",
+        "office_hours": "Mon/Wed 2-4"
+    },
+    {
+        "id": 111,
+        "first_name": "Ritu",
+        "last_name": "Agarwal",
+        "email": "ritu.agarwal@university.edu",
+        "department": "Mechanical Engineering",
+        "specialization": [
+            "Fluid Mechanics"
+        ],
+        "office_location": "ME Building, Room 302",
+        "office_hours": "Tue/Thu 1-3"
+    },
+    {
+        "id": 112,
+        "first_name": "Sanjay",
+        "last_name": "Mishra",
+        "email": "sanjay.mishra@university.edu",
+        "department": "Mechanical Engineering",
+        "specialization": [
+            "Dynamics",
+            "Vibrations",
+            "Mechanical Systems"
+        ],
+        "office_location": "ME Building, Room 303",
+        "office_hours": "Wed/Fri 10-12"
+    },
+    {
+        "id": 113,
+        "first_name": "Pooja",
+        "last_name": "Chakraborty",
+        "email": "pooja.chakraborty@university.edu",
+        "department": "Mechanical Engineering",
+        "specialization": [
+            "Mechanics",
+            "Solid Mechanics",
+            "Structural Analysis"
+        ],
+        "office_location": "ME Building, Room 304",
+        "office_hours": "Mon/Fri 11-1"
+    },
+    {
+        "id": 114,
+        "first_name": "Rahul",
+        "last_name": "Pandey",
+        "email": "rahul.pandey@university.edu",
+        "department": "Mechanical Engineering",
+        "specialization": [
+            "Robotics",
+            "Automation",
+            "Control Systems"
+        ],
+        "office_location": "ME Building, Room 305",
+        "office_hours": "Tue/Wed 3-5"
+    },
+    {
+        "id": 115,
+        "first_name": "Anjali",
+        "last_name": "Iyer",
+        "email": "anjali.iyer@university.edu",
+        "department": "Mechanical Engineering",
+        "specialization": [
+            "CAD/CAM",
+            "Design Engineering",
+            "Product Development"
+        ],
+        "office_location": "ME Building, Room 306",
+        "office_hours": "Thu/Fri 9-11"
+    },
+    {
+        "id": 116,
+        "first_name": "Manoj",
+        "last_name": "Tiwari",
+        "email": "manoj.tiwari@university.edu",
+        "department": "Mechanical Engineering",
+        "specialization": [
+            "Materials Science",
+            "Metallurgy",
+            "Materials Testing"
+        ],
+        "office_location": "ME Building, Room 307",
+        "office_hours": "Mon/Thu 1-3"
+    },
+    {
+        "id": 117,
+        "first_name": "Sunita",
+        "last_name": "Pillai",
+        "email": "sunita.pillai@university.edu",
+        "department": "Smart Manufacturing",
+        "specialization": [
+            "IoT",
+            "Industrial IoT",
+            "Smart Sensors"
+        ],
+        "office_location": "SM Building, Room 401",
+        "office_hours": "Tue/Fri 2-4"
+    },
+    {
+        "id": 118,
+        "first_name": "Kiran",
+        "last_name": "Menon",
+        "email": "kiran.menon@university.edu",
+        "department": "Smart Manufacturing",
+        "specialization": [
+            "Automation",
+            "Industrial Automation",
+            "Process Control"
+        ],
+        "office_location": "SM Building, Room 402",
+        "office_hours": "Wed/Thu 10-12"
+    },
+    {
+        "id": 119,
+        "first_name": "Neha",
+        "last_name": "Kulkarni",
+        "email": "neha.kulkarni@university.edu",
+        "department": "Smart Manufacturing",
+        "specialization": [
+            "CNC Programming",
+            "Manufacturing Technology",
+            "Precision Engineering"
+        ],
+        "office_location": "SM Building, Room 403",
+        "office_hours": "Mon/Wed 1-3"
+    },
+    {
+        "id": 120,
+        "first_name": "Ashok",
+        "last_name": "Bansal",
+        "email": "ashok.bansal@university.edu",
+        "department": "Smart Manufacturing",
+        "specialization": [
+            "Industrial AI",
+            "Machine Learning in Manufacturing",
+            "Predictive Analytics"
+        ],
+        "office_location": "SM Building, Room 404",
+        "office_hours": "Tue/Thu 3-5"
+    },
+    {
+        "id": 121,
+        "first_name": "Divya",
+        "last_name": "Saxena",
+        "email": "divya.saxena@university.edu",
+        "department": "Smart Manufacturing",
+        "specialization": [
+            "Data Analytics",
+            "Big Data",
+            "Manufacturing Intelligence"
+        ],
+        "office_location": "SM Building, Room 405",
+        "office_hours": "Fri 10-2"
+    },
+    {
+        "id": 122,
+        "first_name": "Rohit",
+        "last_name": "Kapoor",
+        "email": "rohit.kapoor@university.edu",
+        "department": "Smart Manufacturing",
+        "specialization": [
+            "3D Printing",
+            "Additive Manufacturing",
+            "Rapid Prototyping"
+        ],
+        "office_location": "SM Building, Room 406",
+        "office_hours": "Mon/Tue 11-1"
+    },
+    {
+        "id": 123,
+        "first_name": "Shilpa",
+        "last_name": "Bose",
+        "email": "shilpa.bose@university.edu",
+        "department": "Smart Manufacturing",
+        "specialization": [
+            "Digital Twins",
+            "Simulation",
+            "Virtual Manufacturing"
+        ],
+        "office_location": "SM Building, Room 407",
+        "office_hours": "Wed/Fri 2-4"
+    },
+    {
+        "id": 124,
+        "first_name": "Gaurav",
+        "last_name": "Malhotra",
+        "email": "gaurav.malhotra@university.edu",
+        "department": "Computer Science",
+        "specialization": [
+            "Advanced Programming",
+            "Software Architecture",
+            "System Design"
+        ],
+        "office_location": "CS Building, Room 111",
+        "office_hours": "Thu/Fri 1-3"
+    },
+    {
+        "id": 125,
+        "first_name": "Ruchi",
+        "last_name": "Srivastava",
+        "email": "ruchi.srivastava@university.edu",
+        "department": "Electronics and Communication",
+        "specialization": [
+            "VLSI Design",
+            "Semiconductor Devices",
+            "Microelectronics"
+        ],
+        "office_location": "ECE Building, Room 206",
+        "office_hours": "Mon/Tue 10-12"
+    }
+]
