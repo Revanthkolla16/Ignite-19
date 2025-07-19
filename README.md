@@ -67,17 +67,18 @@ This project is a submission for the Day 19 API Development Challenge. It provid
 
 ## Screenshots
 
-### 1. Get Faculty by ID
-![Get Faculty by ID](public/screenshot1.png)
 
-### 2. Get Course by Code
-![Get Course by Code](public/screenshot2.png)
+### 1. List All Courses
+![List All Courses](public/screenshot1.png)
 
-### 3. List All Courses
-![List All Courses](public/screenshot3.png)
+### 2. List All Faculty
+![List All Faculty](public/screenshot2.png)
 
-### 4. List All Faculty
-![List All Faculty](public/screenshot4.png)
+### 3. Get Course by Course Code
+![Get Course by Code](public/screenshot3.png)
+
+### 4. Get Faculty by ID
+![Get Faculty by ID](public/screenshot4.png)
 
 ---
 
